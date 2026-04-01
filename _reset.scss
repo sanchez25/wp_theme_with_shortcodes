@@ -1,0 +1,90 @@
+:root{
+    --background: #FFFEF5;
+    --header: #22252A;
+    --content: #22252A;
+    --radius: 12px;
+    --radius-btn: 8px;
+    --text: #fff;
+    --text-menu: #22252A;
+    --link: #FFD257;
+    --btn-log: #50DE90;
+    --content-link: #FFD257;
+    --table: #1A1B1D;
+    --table-content: #40454D;
+    --apk: #40454D;
+    --border-apk: #363B41;
+    --radius-promo: 100px;
+    --shadow-promo: 0px 0px 8px 2px rgba(255, 210, 87, 0.5) inset;
+    --promocode: #383B3F;
+    --text-bonus: #A7A8AA;
+    --radius-bonus: 29px;
+    --bonus-back: #303337;
+    --radius-reg: 16px;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+html { scroll-behavior: smooth; }
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Roboto";
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+body {
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--content-link);
+}
+
+footer, header, nav, section, main{
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.wp-block-table {max-width: 100%; overflow-x: auto; padding-bottom: 20px;}
+.wp-block-table table {width:100%; border-collapse: collapse; overflow: hidden; margin-bottom:20px;border-radius: var(--radius);}
+.wp-block-table table td { color:var(--text);text-align:center; padding:14px 10px;border: none;background: var(--table-content);}
+.wp-block-table table tr:nth-child(2n) td {background:var(--table);}
+.wp-block-table table th {background:var(--table); color: var(--text); padding: 14px 10px;border: none;}
+.wp-block-table table thead {border-bottom: 0;}
